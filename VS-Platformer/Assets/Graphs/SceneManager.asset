@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: SceneManager
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptGraphAsset
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":417.0,"y":166.0},"zoom":1.0,"elements":[{"chainable":false,"parameterNames":["sceneName"],"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"GameScene","$type":"System.String"}},"position":{"x":228.0,"y":26.0},"guid":"f68b3c8c-9de1-4390-9475-08cd76d06222","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"9"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"ReloadScene","$type":"System.String"}},"position":{"x":-117.0,"y":22.0},"guid":"91cdfb05-d051-41da-9acf-d3fe60c7d4a9","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"13"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"c2e271ff-eeba-4711-bf1a-d1e663e67a04","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
