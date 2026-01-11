@@ -1955,7 +1955,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &648299868
 Transform:
   m_ObjectHideFlags: 0
@@ -3344,18 +3344,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3635177066192782265, guid: c0bf56b1b86ca5744ae7c810362aae1f, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3635177066192782265, guid: c0bf56b1b86ca5744ae7c810362aae1f, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3635177066192782265, guid: c0bf56b1b86ca5744ae7c810362aae1f, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: af01ad45b24761a43b075f1da2e73a0f, type: 2}
     - target: {fileID: 6558236494733651551, guid: c0bf56b1b86ca5744ae7c810362aae1f, type: 3}
       propertyPath: m_Name
       value: Star
@@ -4908,7 +4896,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1755204842}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 980414123}
+        m_TargetAssemblyTypeName: Unity.VisualScripting.ScriptMachine, Unity.VisualScripting.Flow
+        m_MethodName: TriggerUnityEvent
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: MainMenu
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1755204842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5420,7 +5420,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1855949317
 Transform:
   m_ObjectHideFlags: 0
